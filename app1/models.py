@@ -10,7 +10,7 @@ class Author(models.Model):
 
     def __str__(self):
         return self.name
- 
+
 
 class Poll(models.Model):
     name = models.CharField(unique=True,max_length=100)
@@ -21,3 +21,4 @@ class Poll(models.Model):
 
     def __str__(self):
         return self.name
+
